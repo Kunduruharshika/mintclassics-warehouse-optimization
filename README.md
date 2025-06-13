@@ -1,47 +1,37 @@
 # MintClassics Warehouse Optimization – SQL Case Study
 
-Author: Harshika 
+**Author:** Harshika
 
-## Project Overview
+## About the Project
 
-This project focuses on analyzing and improving warehouse operations for MintClassics, a global retailer of collectible cars and accessories. Using SQL as the primary tool, the goal was to explore their order and inventory data to generate actionable insights that could support smarter inventory planning, regional performance tracking, and operational decision-making.
+This SQL case study analyzes operational data from MintClassics, a global classic car retailer. The goal was to identify patterns in product demand, office-level performance, and inventory movement to support warehouse optimization.
 
-The analysis was structured in five stages, beginning with data exploration and ending in business recommendations backed by query results.
+The analysis was done using pure SQL across five structured parts: data exploration, product performance, regional sales, sales rep analysis, and product line insights.
 
-## Business Problem
+## Business Objective
 
-MintClassics has been experiencing challenges around stock availability, regional warehouse inefficiencies, and unclear product demand patterns. The key objectives were:
+MintClassics needed better visibility into:
+- Which products and regions drive the most revenue
+- How sales reps and offices contribute to performance
+- Which SKUs to prioritize or phase out
 
-- Identify high-demand and low-demand products
-- Analyze office-level sales performance across regions
-- Understand sales rep effectiveness
-- Recommend warehouse improvements based on real usage data
+This project uses SQL to help answer those questions and support data-driven decision-making for inventory and fulfillment.
 
-By answering these questions, the project aims to support better warehouse layout planning, inventory allocation, and overall efficiency.
+## Contents
 
-## Files in This Repository
+- `mintclassics.sql` – SQL file with commented queries from basic to advanced
+- `Mintclassics_Warehouse_Optimization_Report.docx` – Business summary and recommendations
+- `ER_Diagram_Mintclassics.png` – Visual schema diagram of the database
 
-- `mintclassics.sql` – SQL workbook covering all analysis steps, from simple queries to more integrated joins and aggregations. All queries are commented for clarity.
-- `Mintclassics_Warehouse_Optimization_Report.docx` – A business report summarizing key findings and recommendations for stakeholders.
-- `ER_Diagram_Mintclassics.png` – A database schema diagram used to understand the table relationships in the dataset.
+## Key Highlights
 
-## What This Project Demonstrates
+- France office: Highest total revenue  
+- Switzerland: Highest average order value  
+- Top product (volume): 1972 Alfa Romeo GTA  
+- Top product (revenue): 1992 Ferrari 360 Spider Red  
+- Best performing sales rep: Gerard Hernandez
 
-- Proficiency in SQL fundamentals including filtering, grouping, joining, and aggregating data.
-- Ability to connect technical analysis to real business needs.
-- Structured thinking applied to a multi-stage analysis workflow.
-- Communication skills through documentation and clear commentary in SQL.
+## Why This Project
 
-## Key Insights from the Analysis
-
-- France generated the highest total revenue among all office locations.
-- Switzerland had the highest average order value, indicating a concentration of high-value customers.
-- The most frequently ordered product was the 1972 Alfa Romeo GTA.
-- The highest revenue-generating product was the 1992 Ferrari 360 Spider Red.
-- The best performing sales representative by revenue was Employee #1370 (Gerard Hernandez).
-- The “Classic Cars” product line contributed the most revenue overall.
-
-## Summary
-
-This case study was an opportunity to take raw transactional data and use SQL to uncover operational insights that matter. The process reflects how analysts help businesses make data-driven decisions around inventory, logistics, and customer relationships.
+This project demonstrates how SQL can be applied to real business problems and translated into operational insights. It showcases skills in querying, joining, aggregating, and business storytelling—ideal for roles in analytics and operations.
 
